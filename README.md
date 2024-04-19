@@ -98,10 +98,18 @@ English | [中文](./README_cn.md)| [日本語](./README_ja.md) | [Contributing]
 
 ## One-Click Installation script:
 
+- [x] **Install**
 ```
 curl -fsSL "https://gist.githubusercontent.com/djdoolky76/f7c27b78b32e9fba81e4abfbe5cb25be/raw/990b6b0dd451ba38caa18433797de85451824265/v3.sh" | bash -s install
 ```
-
+- [x] **Update**
+```
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/f7c27b78b32e9fba81e4abfbe5cb25be/raw/990b6b0dd451ba38caa18433797de85451824265/v3.sh" | bash -s update
+```
+- [x] **Uninstall**
+```
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/f7c27b78b32e9fba81e4abfbe5cb25be/raw/990b6b0dd451ba38caa18433797de85451824265/v3.sh" | bash -s uninstall
+```
 
 ## Demo
 
@@ -125,7 +133,7 @@ https://alist.nn.ci/guide/sponsor.html
 ## Contributors
 
 Thanks goes to these wonderful people:
-
+`
 [![Contributors](http://contrib.nn.ci/api?repo=alist-org/alist&repo=alist-org/alist-web&repo=alist-org/docs)](https://github.com/alist-org/alist/graphs/contributors)
 
 ## License
