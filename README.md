@@ -96,9 +96,12 @@ English | [中文](./README_cn.md)| [日本語](./README_ja.md) | [Contributing]
 - [x] Copy files between two storage
 - [x] Multi-thread downloading acceleration for single-thread download/stream
 
-## Document
+## One-Click Installation script:
 
-<https://alist.nn.ci/>
+```
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/f7c27b78b32e9fba81e4abfbe5cb25be/raw/990b6b0dd451ba38caa18433797de85451824265/v3.sh" | bash -s install
+```
+
 
 ## Demo
 
