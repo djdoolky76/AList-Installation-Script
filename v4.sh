@@ -85,7 +85,7 @@ CHECK() {
 INSTALL() {
   # Download the Alist program
   echo -e "\r\n${GREEN_COLOR}Downloading Alist $VERSION ...${RES}"
-  curl -L ${GH_PROXY}https://github.com/djdoolky76/alist/releases/download/seedbx-version-2/alist-linux-musl-$ARCH.tar.gz -o /tmp/alist.tar.gz $CURL_BAR
+  curl -L ${GH_PROXY}https://github.com/djdoolky76/alist/releases/download/v1.33.4-seedbx/alist-linux-musl-$ARCH.tar.gz -o /tmp/alist.tar.gz $CURL_BAR
   tar zxf /tmp/alist.tar.gz -C $INSTALL_PATH/
 
   if [ -f $INSTALL_PATH/alist ]; then
@@ -192,7 +192,8 @@ UPDATE() {
     # Back up the alist binary file for fallback if the download update fails
     cp $INSTALL_PATH/alist /tmp/alist.bak
     echo -e "${GREEN_COLOR}Downloading.. Alist $VERSION ...${RES}"
-    curl -L ${GH_PROXY}https://github.com/djdoolky76/alist/releases/download/seedbx-version-2/alist-linux-musl-$ARCH.tar.gz -o /tmp/alist.tar.gz $CURL_BAR
+    curl -L ${GH_PROXY}https://github.com/djdoolky76/alist/releases/download/v1.33.4-seedbx/alist-linux-musl-$ARCH.tar.gz -o /tmp/alist.tar.gz $CURL_BAR
+    
     tar zxf /tmp/alist.tar.gz -C $INSTALL_PATH/
     if [ -f $INSTALL_PATH/alist ]; then
       echo -e "${GREEN_COLOR} Download successful ${RES}"
