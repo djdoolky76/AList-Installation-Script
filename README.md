@@ -115,15 +115,15 @@ curl -fsSL "https://gist.githubusercontent.com/djdoolky76/f7c27b78b32e9fba81e4ab
 
 - [x] **Install**
 ```
-curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/648fd694e22bc8383e6a405811fe33e49c87ecb3/v4.sh" | bash -s install
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/8b992f7c370897d9fd2a3114d8f2712b736e71d9/v4.sh" | bash -s install
 ```
 - [x] **Update**
 ```
-curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/648fd694e22bc8383e6a405811fe33e49c87ecb3/v4.sh" | bash -s update
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/8b992f7c370897d9fd2a3114d8f2712b736e71d9/v4.sh" | bash -s update
 ```
 - [x] **Uninstall**
 ```
-curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/648fd694e22bc8383e6a405811fe33e49c87ecb3/v4.sh" | bash -s uninstall
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/8b992f7c370897d9fd2a3114d8f2712b736e71d9/v4.sh" | bash -s uninstall
 ```
 
 ## Demo
