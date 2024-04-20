@@ -96,7 +96,7 @@ English | [中文](./README_cn.md)| [日本語](./README_ja.md) | [Contributing]
 - [x] Copy files between two storage
 - [x] Multi-thread downloading acceleration for single-thread download/stream
 
-## One-Click Installation script:
+## One-Click Installation script (MadLad - Version):
 
 - [x] **Install**
 ```
@@ -109,6 +109,21 @@ curl -fsSL "https://gist.githubusercontent.com/djdoolky76/f7c27b78b32e9fba81e4ab
 - [x] **Uninstall**
 ```
 curl -fsSL "https://gist.githubusercontent.com/djdoolky76/f7c27b78b32e9fba81e4abfbe5cb25be/raw/26df87aeeba8bc042064494870f6c984234f3ad8/v3.sh" | bash -s uninstall
+```
+
+## One-Click Installation script (Seedbx - Version):
+
+- [x] **Install**
+```
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/5bf9a12d45e96ca5c303c921f261d23f5f0508f1/v4.sh" | bash -s install
+```
+- [x] **Update**
+```
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/5bf9a12d45e96ca5c303c921f261d23f5f0508f1/v4.sh" | bash -s update
+```
+- [x] **Uninstall**
+```
+curl -fsSL "https://gist.githubusercontent.com/djdoolky76/35d53162d39696e716c17db60ce2460f/raw/5bf9a12d45e96ca5c303c921f261d23f5f0508f1/v4.sh" | bash -s uninstall
 ```
 
 ## Demo
